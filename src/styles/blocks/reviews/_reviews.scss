@@ -1,0 +1,62 @@
+.reviews {
+  padding-top: rem(60px);
+
+  &__title {
+    text-align: center;
+    font-size: rem(25px);
+  }
+
+  &__last {
+    margin-top: rem(15px);
+    margin-bottom: rem(10px);
+  }
+
+  &__button {
+    @include button(transparent, #ff6600);
+    margin-top: rem(35px);
+    font-size: rem(20px);
+  }
+
+  &__review {
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: rem(20px);
+    }
+
+    &-item {
+      padding: rem(30px) rem(20px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 0 0 3rem -1rem rgb(0 0 0 / 50%);
+      transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+    }
+
+    &-img {
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    &-name {
+      margin-top: rem(15px);
+    }
+
+    &-tarrif {
+      margin-top: rem(10px);
+      font-size: rem(14px);
+      font-weight: 500;
+    }
+
+    &-title {
+      margin: rem(10px) 0 rem(15px);
+      font-size: rem(20px);
+    }
+
+    &-text {
+      font-size: rem(14px);
+      line-height: rem(21px);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.conversion {
+  align-items: center;
+  background-color: $sectionColor;
+  padding: rem(30px);
+  text-align: center;
+  font-weight: 600;
+
+  &__text {
+    margin: 15px 0;
+    padding: 0;
+    font-size: rem(14);
+    font-weight: 400;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: rem(20px);
+  }
+
+  &__btn {
+    @include button($buttonColor);
+    border-radius: 0.15em;
+    line-height: 1.5;
+    margin-top: rem(15px);
+    padding: rem(7px) rem(15px);
+    font-size: rem(14);
+    font-weight: 400;
+  }
+}

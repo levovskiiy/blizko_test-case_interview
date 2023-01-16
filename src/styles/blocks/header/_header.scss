@@ -4,23 +4,7 @@
   z-index: 2;
   width: 100%;
   background-color: $sectionColor;
-  padding: 12px 0;
-
-  &__logo-picture {
-    padding: 0;
-    margin: 0;
-  }
-
-  &__logo-caption {
-    margin-top: 5px;
-    font-size: 14px;
-  }
-
-  &__logo {
-    z-index: 10000;
-    display: block;
-    max-width: 122px;
-  }
+  padding: rem(12) 0;
 
   &__nav {
     z-index: 10000;
@@ -29,12 +13,20 @@
     justify-content: space-between;
   }
 
-  &__burger-btn {
+  &__logo {
     z-index: 10000;
-    padding: 0;
-    margin: 0;
-    border: none;
-    font-size: rem(50);
+    display: block;
+    max-width: rem(122);
+
+    &-picture {
+      padding: 0;
+      margin: 0;
+    }
+
+    &-caption {
+      margin-top: rem(5);
+      font-size: rem(14);
+    }
   }
 
   &__menu {
@@ -50,9 +42,9 @@
     transition: all 0.5s ease-in-out;
 
     &-button {
-      @include btn();
-      margin-top: 10px;
-      padding: 6px 12px;
+      @include button($buttonColor);
+      margin-top: rem(10);
+      padding: rem(6px) rem(12px);
     }
   }
 
@@ -61,15 +53,22 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: rem(15px);
     list-style-type: none;
-
     &-link {
       text-decoration: none;
       text-transform: none;
       color: #373737;
       font-size: rem(14);
     }
+  }
+
+  &__burger-btn {
+    z-index: 10000;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: rem(50);
   }
 
   @media screen and (min-width: $tableWidth) {

@@ -1,0 +1,48 @@
+.tariff {
+  box-shadow: 2px 2px 10px 4px rgb(55 55 55 / 13%);
+  background-color: #ffffff;
+  border-radius: 3px;
+
+  &__title {
+    padding: 0 rem(16) rem(8);
+    text-align: center;
+    font-size: rem(20);
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 25px;
+    text-transform: uppercase;
+    background: none;
+    border-bottom: 2px solid #ff6600;
+  }
+
+  &__description-container {
+    align-items: flex-start;
+    gap: 10px;
+    padding: 16px 30px 24px;
+  }
+
+  &__text {
+    font-size: rem(16);
+    line-height: 1.5;
+    font-weight: 400;
+    color: #373737;
+  }
+
+  &__btn {
+    @include button();
+    margin-top: 15px;
+    font-size: rem(18);
+    text-decoration: underline;
+    background-color: transparent;
+    color: #ff6600;
+  }
+
+  &__price {
+    &-sum {
+      margin-top: 10px;
+      color: $buttonColor;
+      font-size: rem(25);
+      font-weight: 600;
+    }
+  }
+}
