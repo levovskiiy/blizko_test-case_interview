@@ -1,0 +1,13 @@
+@use 'sass:math';
+
+@function rem($pixels, $context: $fontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return math.div($pixels, $context) * 1rem;
+}

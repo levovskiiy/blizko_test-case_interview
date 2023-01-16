@@ -1,0 +1,26 @@
+@use "sass:math";
+
+@function calcSize($target, $currentSize) {
+  @return (math.div($target, $currentSize) * 100) + 0%;
+}
+
+
+.container {
+  width: 100%;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+
+  @each $size, $margin in (
+          $smPhoneWidth: 12px,
+          $smTableWidth: 48px,
+          $tableWidth: 64px,
+          $smDesktopWidth: 96px,
+          $desktopWidth: 0) {
+    @media screen and (min-width: $size) {
+      padding: 0 $margin;
+    }
+  }
+
+}

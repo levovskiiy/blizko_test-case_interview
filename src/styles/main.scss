@@ -1,0 +1,240 @@
+@import "utils/normalize";
+@import "utils/vars";
+@import "utils/functions";
+@import "utils/fonts";
+@import "blocks/blocks";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin btn {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: $buttonColor;
+  color: #fff;
+  border-radius: 0.15em;
+}
+
+html {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $fontColor;
+  line-height: $fontLh;
+}
+
+.page {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+.contacts__list {
+  display: flex;
+  align-items: center;
+}
+
+.offer {
+  margin: 120px 0 8px 0;
+  font-size: rem(20px);
+  font-weight: 400;
+
+  &__title {
+    font-size: rem(25px);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__sub-title {
+    margin: 15px 0 0;
+  }
+
+  &__description {
+    margin: 8px 0 0;
+  }
+}
+
+.conversion {
+  align-items: center;
+  background-color: $sectionColor;
+  padding: 30px;
+  text-align: center;
+  font-weight: 600;
+
+  &__title {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  &__btn {
+    @include btn();
+    border-radius: 0.15em;
+    line-height: 1.5;
+    margin-top: 15px;
+    padding: 7px 15px;
+    font-size: rem(14);
+    font-weight: 400;
+  }
+
+  &__text {
+    margin: 15px 0;
+    padding: 0;
+    font-size: rem(14);
+    font-weight: 400;
+  }
+}
+
+.tariffs {
+  margin-top: 30px;
+  align-items: center;
+
+  &__title {
+    width: 100%;
+    font-size: rem(24);
+    text-align: center;
+    font-weight: 600;
+  }
+
+  &__container {
+    margin-top: 23px;
+    padding: 0 12px;
+    gap: 23px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: rem(16);
+    line-height: 1.5;
+    color: $fontColor;
+  }
+}
+
+.tariff {
+  box-shadow: 2px 2px 10px 4px rgb(55 55 55 / 13%);
+  background-color: #ffffff;
+  border-radius: 3px;
+
+  &__title {
+    padding: 0 rem(16) rem(8);
+    text-align: center;
+    font-size: rem(20);
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 25px;
+    text-transform: uppercase;
+    background: none;
+    border-bottom: 2px solid #ff6600;
+  }
+
+  &__description-container {
+    align-items: flex-start;
+    gap: 10px;
+    padding: 16px 30px 24px;
+  }
+
+  &__text {
+    font-size: rem(16);
+    line-height: 1.5;
+    font-weight: 400;
+    color: #373737;
+  }
+
+  &__btn {
+    @include btn();
+    margin-top: 15px;
+    font-size: rem(18);
+    text-decoration: underline;
+    background-color: transparent;
+    color: #ff6600;
+  }
+
+  &__price {
+    &-sum {
+      margin-top: 10px;
+      color: $buttonColor;
+      font-size: rem(25);
+      font-weight: 600;
+    }
+  }
+}
+
+.show {
+  visibility: visible;
+}
+
+.extra {
+  &__title-container {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: rem(25);
+    font-weight: 600;
+  }
+
+  &__subtitle {
+    font-size: rem(25);
+    font-weight: 600;
+  }
+
+  &__card-list {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  &__card-item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px 28px;
+    box-shadow: 0 0 3rem -1rem rgb(0 0 0 / 50%);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+  }
+
+  &__card-title {
+    font-size: rem(20);
+    color: #ff6600;
+  }
+
+  &__card-text {
+    margin: 18px 0;
+    font-size: rem(16);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  &__card-btn {
+    @include btn();
+    background-color: #ff6600;
+    font-size: rem(16);
+    padding: 0.375rem 0.75rem;
+  }
+}

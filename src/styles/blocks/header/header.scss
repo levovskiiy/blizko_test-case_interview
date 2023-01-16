@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: $sectionColor;
+  padding: 12px 0;
+
+  &__logo-picture {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__logo-caption {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  &__logo {
+    z-index: 10000;
+    display: block;
+    max-width: 122px;
+  }
+
+  &__nav {
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__burger-btn {
+    z-index: 10000;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: rem(50);
+  }
+
+  &__menu {
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $sectionColor;
+    transition: all 0.5s ease-in-out;
+
+    &-button {
+      @include btn();
+      margin-top: 10px;
+      padding: 6px 12px;
+    }
+  }
+
+  &__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+
+    &-link {
+      text-decoration: none;
+      text-transform: none;
+      color: #373737;
+      font-size: rem(14);
+    }
+  }
+
+  @media screen and (min-width: $tableWidth) {
+    &__burger-btn {
+      display: none;
+    }
+
+    &__menu {
+      visibility: visible;
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      flex-direction: row;
+      background-color: transparent;
+
+      &-container {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &__links {
+      flex-direction: row;
+    }
+  }
+}
