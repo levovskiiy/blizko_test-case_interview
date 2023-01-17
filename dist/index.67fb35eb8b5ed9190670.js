@@ -10535,7 +10535,7 @@ menuButton.addEventListener('click', () => {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/Roboto-Bold-hash:f80816a5455d171f948d.ttf";
+module.exports = __webpack_require__.p + "Roboto-Boldf80816a5455d171f948d.ttf";
 
 /***/ }),
 
@@ -10546,7 +10546,7 @@ module.exports = __webpack_require__.p + "assets/Roboto-Bold-hash:f80816a5455d17
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/Roboto-Medium-hash:7c8d04cd831df3033c8a.ttf";
+module.exports = __webpack_require__.p + "Roboto-Medium7c8d04cd831df3033c8a.ttf";
 
 /***/ }),
 
@@ -10557,7 +10557,7 @@ module.exports = __webpack_require__.p + "assets/Roboto-Medium-hash:7c8d04cd831d
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/Roboto-Regular-hash:fc2b5060f7accec5cf74.ttf";
+module.exports = __webpack_require__.p + "Roboto-Regularfc2b5060f7accec5cf74.ttf";
 
 /***/ }),
 
@@ -10568,7 +10568,7 @@ module.exports = __webpack_require__.p + "assets/Roboto-Regular-hash:fc2b5060f7a
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/bg-plan-hash:701f96cca965d786d56d.png";
+module.exports = __webpack_require__.p + "bg-plan701f96cca965d786d56d.png";
 
 /***/ }),
 
@@ -10579,7 +10579,7 @@ module.exports = __webpack_require__.p + "assets/bg-plan-hash:701f96cca965d786d5
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/dzen-hash:fcef8ab0c448ed58a13b.png";
+module.exports = __webpack_require__.p + "dzenfcef8ab0c448ed58a13b.png";
 
 /***/ }),
 
@@ -10590,7 +10590,7 @@ module.exports = __webpack_require__.p + "assets/dzen-hash:fcef8ab0c448ed58a13b.
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/dzen_second-hash:70ea918d0925a5db0862.png";
+module.exports = __webpack_require__.p + "dzen_second70ea918d0925a5db0862.png";
 
 /***/ }),
 
@@ -10601,7 +10601,7 @@ module.exports = __webpack_require__.p + "assets/dzen_second-hash:70ea918d0925a5
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/footer_logo-hash:694d5c6daad6665b3007.png";
+module.exports = __webpack_require__.p + "footer_logo694d5c6daad6665b3007.png";
 
 /***/ }),
 
@@ -10612,7 +10612,7 @@ module.exports = __webpack_require__.p + "assets/footer_logo-hash:694d5c6daad666
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/logo-hash:2033554b97855ca11757.svg";
+module.exports = __webpack_require__.p + "logo2033554b97855ca11757.svg";
 
 /***/ }),
 
@@ -10623,7 +10623,7 @@ module.exports = __webpack_require__.p + "assets/logo-hash:2033554b97855ca11757.
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/phone-hash:e9a1db930c9f41e7cdce.png";
+module.exports = __webpack_require__.p + "phonee9a1db930c9f41e7cdce.png";
 
 /***/ }),
 
@@ -10634,7 +10634,7 @@ module.exports = __webpack_require__.p + "assets/phone-hash:e9a1db930c9f41e7cdce
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/pointer-hash:100db34583c66d9c5d58.png";
+module.exports = __webpack_require__.p + "pointer100db34583c66d9c5d58.png";
 
 /***/ }),
 
@@ -10645,7 +10645,7 @@ module.exports = __webpack_require__.p + "assets/pointer-hash:100db34583c66d9c5d
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/site-hash:8709070ff50174372691.png";
+module.exports = __webpack_require__.p + "site8709070ff50174372691.png";
 
 /***/ }),
 
@@ -10656,7 +10656,7 @@ module.exports = __webpack_require__.p + "assets/site-hash:8709070ff50174372691.
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/telegram-hash:e78db62a7f6b31813b9b.png";
+module.exports = __webpack_require__.p + "telegrame78db62a7f6b31813b9b.png";
 
 /***/ }),
 
@@ -10667,7 +10667,7 @@ module.exports = __webpack_require__.p + "assets/telegram-hash:e78db62a7f6b31813
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/tenchat-hash:fa324b7d84a0afe3952e.png";
+module.exports = __webpack_require__.p + "tenchatfa324b7d84a0afe3952e.png";
 
 /***/ }),
 
@@ -10678,7 +10678,7 @@ module.exports = __webpack_require__.p + "assets/tenchat-hash:fa324b7d84a0afe395
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/vk-hash:ff890b3e9b5536630d24.png";
+module.exports = __webpack_require__.p + "vkff890b3e9b5536630d24.png";
 
 /***/ }),
 
@@ -10689,7 +10689,7 @@ module.exports = __webpack_require__.p + "assets/vk-hash:ff890b3e9b5536630d24.pn
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/whatsapp-hash:7f7d62b7a6ce1b823632.png";
+module.exports = __webpack_require__.p + "whatsapp7f7d62b7a6ce1b823632.png";
 
 /***/ }),
 
@@ -10700,7 +10700,7 @@ module.exports = __webpack_require__.p + "assets/whatsapp-hash:7f7d62b7a6ce1b823
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/youtube-hash:a8943176656ef62eb3aa.png";
+module.exports = __webpack_require__.p + "youtubea8943176656ef62eb3aa.png";
 
 /***/ })
 
@@ -10879,4 +10879,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.b8d28db50861d911221c.js.map
+//# sourceMappingURL=index.67fb35eb8b5ed9190670.js.map
