@@ -26,16 +26,17 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: $fontColor;
+}
+
 html {
   font-family: $fontFamily;
   font-size: $fontSize;
   color: $fontColor;
   line-height: $fontLh;
-}
-
-.contacts__list {
-  display: flex;
-  align-items: center;
 }
 
 .show {

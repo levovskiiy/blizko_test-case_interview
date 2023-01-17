@@ -1,0 +1,12 @@
+.link {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &_opacity_xl:hover {
+    opacity: 0.7;
+  }
+}

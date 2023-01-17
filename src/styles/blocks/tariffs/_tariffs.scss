@@ -21,4 +21,10 @@
     line-height: 1.5;
     color: $fontColor;
   }
+
+  @media screen and (min-width: $desktopWidth) {
+    & {
+      display: flex;
+    }
+  }
 }

@@ -1,0 +1,20 @@
+.contacts {
+  &__list {
+    margin: rem(20px) 0;
+    display: flex;
+    align-items: center;
+    gap: rem(10px);
+  }
+
+  &__link {
+    display: flex;
+  }
+
+  &__image {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: $smDesktopWidth) {
+  }
+}

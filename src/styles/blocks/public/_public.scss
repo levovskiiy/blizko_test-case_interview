@@ -1,0 +1,7 @@
+.public {
+  margin-top: rem(60px);
+  &__text {
+    font-size: rem(14px);
+    color: $optionalColor;
+  }
+}

@@ -1,0 +1,40 @@
+.plans {
+  display: none;
+  width: 100%;
+  margin: rem(60px) 0 0;
+
+  &__container {
+    background: url("/src/images/bg-plan.png") no-repeat center center;
+    height: 174px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__to-tarrifs {
+    color: #fff;
+    font-size: rem(40px);
+    font-weight: 700;
+  }
+
+  &__to-register {
+    color: #000;
+    font-size: rem(28px);
+    font-weight: 700;
+    line-height: rem(35px);
+    max-width: rem(380px);
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media screen and (min-width: $tableWidth) {
+    & {
+      display: block;
+    }
+  }
+}

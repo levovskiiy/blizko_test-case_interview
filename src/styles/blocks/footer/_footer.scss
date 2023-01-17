@@ -1,0 +1,123 @@
+.footer {
+  background-color: $sectionColor;
+  margin-top: rem(25px);
+  padding: rem(25px) 0;
+
+  &__title {
+    margin: rem(10px) 0;
+    font-size: rem(14px);
+  }
+
+  &__button {
+    display: inline-block;
+    @include button($buttonColor, #fff);
+    padding: rem(6px) rem(12px);
+    max-width: 169px;
+    text-align: center;
+    border-radius: rem(6px);
+
+    &_color_orange {
+      @include button(#ff6600, #fff);
+      padding: rem(6px) rem(12px);
+      max-width: 169px;
+      text-align: center;
+      border-radius: rem(6px);
+    }
+  }
+
+  &__list {
+    font-size: rem(14px);
+    margin-top: rem(25px);
+    display: flex;
+    flex-direction: column;
+    gap: rem(10px);
+
+    &-item {
+      color: $fontColor;
+
+      &_pd_small {
+        margin-left: rem(25px);
+      }
+    }
+  }
+
+  &__contact {
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: rem(10px);
+    }
+
+    &-image {
+      display: block;
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  &__social {
+    &-list {
+      margin-top: rem(15px);
+      display: flex;
+      align-items: center;
+      gap: rem(20px);
+    }
+
+    &-image {
+      position: relative;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__sallers-container {
+    display: none;
+  }
+
+  &__about-list {
+    display: none;
+  }
+
+  @media screen and (min-width: $smDesktopWidth) {
+    & {
+      padding: rem(60px) 0;
+    }
+
+    &__row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__about-list {
+      display: flex;
+      flex-direction: column;
+      gap: rem(20px);
+    }
+
+    &__list {
+      margin-top: 0;
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__contacts-container {
+      display: none;
+    }
+
+    &__sallers-container {
+      display: flex;
+      flex-direction: column;
+      gap: rem(10px);
+    }
+
+    &__social-list {
+      flex-direction: column;
+    }
+
+    &__sallers-title {
+      font-size: rem(14px);
+    }
+  }
+}

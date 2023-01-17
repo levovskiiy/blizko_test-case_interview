@@ -1,8 +1,55 @@
 .offer {
   margin: rem(120px) 0 rem(8px) 0;
-  font-size: rem(20px);
   font-weight: 400;
+
+  &__content {
+    display: flex;
+    align-items: stretch;
+    gap: rem(20px);
+  }
+
+  &__pointer {
+    display: none;
+    max-width: 100%;
+
+    &-image {
+      width: 35px;
+    }
+
+    @media screen and (min-width: $smDesktopWidth) {
+      & {
+        display: block;
+      }
+    }
+  }
+
+  &__title {
+    font-size: rem(25px);
+    margin-bottom: rem(15px);
+  }
+
+  &__sub-title {
+    font-size: rem(20px);
+  }
+
   &__description {
+    font-size: rem(20px);
     margin: rem(8px) 0 0;
+  }
+
+  @media screen and (min-width: $tableWidth) {
+    & {
+      margin-top: rem(60px);
+      margin-bottom: rem(30px);
+    }
+
+    &__title {
+      font-size: rem(28px);
+    }
+
+    &__sub-title,
+    &__description {
+      font-size: rem(22px);
+    }
   }
 }

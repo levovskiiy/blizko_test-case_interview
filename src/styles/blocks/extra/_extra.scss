@@ -26,7 +26,6 @@
   &__card-item {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     padding: rem(20px) rem(28px);
     box-shadow: 0 0 3rem -1rem rgb(0 0 0 / 50%);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s;
@@ -48,5 +47,26 @@
     @include button(#ff6600);
     font-size: rem(16);
     padding: 0.375rem 0.75rem;
+  }
+
+  @media screen and (min-width: $smTableWidth) {
+    &__title-container {
+      margin: rem(45px) 0;
+    }
+
+    &__card-list {
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: rem(30px);
+    }
+
+    &__card-item {
+      flex: 1 1 100%;
+    }
+
+    &__card-btn {
+      margin-top: auto;
+    }
   }
 }

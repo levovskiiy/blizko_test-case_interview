@@ -42,14 +42,15 @@
     transition: all 0.5s ease-in-out;
 
     &-button {
-      @include button($buttonColor);
-      margin-top: rem(10);
+      display: block;
+      @include button($buttonColor, #fff);
+      margin-top: rem(20);
       padding: rem(6px) rem(12px);
     }
   }
 
   &__links {
-    margin: 0;
+    margin: rem(15px) 0 0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@
     font-size: rem(50);
   }
 
-  @media screen and (min-width: $tableWidth) {
+  @media screen and (min-width: $smDesktopWidth) {
     &__burger-btn {
       display: none;
     }
@@ -79,21 +80,29 @@
     &__menu {
       visibility: visible;
       position: relative;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
       flex-direction: row;
+      justify-content: space-between;
       background-color: transparent;
 
       &-container {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+      }
+
+      &-button {
+        margin-top: 0;
       }
     }
 
     &__links {
+      margin: 0;
+      gap: rem(25px);
       flex-direction: row;
+    }
+
+    &__nav {
+      gap: rem(40px);
     }
   }
 }

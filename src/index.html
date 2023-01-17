@@ -39,52 +39,123 @@
                 <div class="header__menu-container">
                   <ul class="header__links">
                     <li class="header__links-item">
-                      <a href="#" class="header__links-link"
+                      <a
+                        href="https://ekb.blizko.ru/sellers/?area=footer_com"
+                        class="header__links-link link"
                         >Как продавать на BLIZKO</a
                       >
                     </li>
                     <li class="header__links-item">
-                      <a href="#" class="header__links-link">Прайс-лист</a>
+                      <a href="#tariffs" class="header__links-link link"
+                        >Прайс-лист</a
+                      >
                     </li>
                     <li class="header__links-item">
-                      <a href="#" class="header__links-link">Создать сайт</a>
+                      <a
+                        href="https://ekb.blizko.ru/sellers/create_a_website/?area=header_com"
+                        class="header__links-link link"
+                        >Создать сайт</a
+                      >
                     </li>
                     <li class="header__links-item">
-                      <a href="#" class="header__links-link">Отзывы</a>
+                      <a
+                        href="https://ekb.blizko.ru/sellers/response/?area=header_com"
+                        class="header__links-link link"
+                        >Отзывы</a
+                      >
                     </li>
                   </ul>
 
-                  <button class="header__menu-button">
+                  <a
+                    href="https://ekb.blizko.ru/company_wizard/new?page=sellersreklama&button=true&type=dk"
+                    class="header__menu-button link link_opacity_xl"
+                  >
                     Зарегистрировать компанию
-                  </button>
+                  </a>
 
-                  <!--                    <div class="contacts">-->
-                  <!--                        <p class="contacts__title">Мы на связи:</p>-->
-                  <!--                        <ul class="contacts__list">-->
-                  <!--                            <li class="contacts__item"><a href="#" class="contacts__link">8-800-7000-191</a></li>-->
-                  <!--                            <li class="contacts__item"><a href="#" class="contacts__link"></a></li>-->
-                  <!--                            <li class="contacts__item"><a href="#" class="contacts__link"></a></li>-->
-                  <!--                        </ul>-->
-                  <!--                    </div>-->
+                  <div class="contacts">
+                    <ul class="contacts__list">
+                      <li class="contacts__item">
+                        <a
+                          href="tel:+78007000191"
+                          class="contacts__link link link_opacity_xl"
+                        >
+                          <img
+                            src="./images/phone.png"
+                            alt="Иконка телефона"
+                            class="contacts__image"
+                          />
+                        </a>
+                      </li>
+                      <li class="contacts__item">
+                        <a
+                          href="https://wa.me/79221017318/?area=header_com"
+                          class="contacts__link link link_opacity_xl"
+                          ><img
+                            src="./images/whatsapp.png"
+                            alt="Иконка WhatsApp"
+                            class="contacts__image"
+                        /></a>
+                      </li>
+                      <li class="contacts__item">
+                        <a
+                          href="./images/telegram.png"
+                          class="contacts__link link link_opacity_xl"
+                        >
+                          <img
+                            src="./images/telegram.png"
+                            alt="Иконка Telegram"
+                            class="contacts__image"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </nav>
         </div>
       </header>
+
       <main class="main page__main">
+        <section class="plans content-wrapper">
+          <aside class="plans__container">
+            <div class="container">
+              <div class="plans__links">
+                <a href="#" class="plans__to-tarrifs">Тарифные планы</a>
+                <a href="#" class="plans__to-register"
+                  >Зарегистрируйте компанию и начните продажи на BLIZKO</a
+                >
+              </div>
+            </div>
+          </aside>
+        </section>
+
         <section class="offer main__offer content-wrapper">
-          <div class="container">
-            <h1 class="offer__title">BLIZKO — федеральная торговая площадка</h1>
-            <p class="offer__sub-title">
-              Здесь каждый месяц миллионы покупателей выбирают товары и услуги
-              от десятков тысяч компаний.
-            </p>
-            <p class="offer__description">
-              Пройдите простую регистрацию и получите доступ в кабинет компании.
-              Вам будут доступны все сервисы для продаж через BLIZKO, публикация
-              товаров и услуг, управление размещением товаров в листинге.
-            </p>
+          <div class="offer__content container">
+            <div class="offer__pointer">
+              <img
+                src="./images/pointer.png"
+                alt="Стрелка"
+                class="offer__pointer-image"
+              />
+            </div>
+            <div class="offer__text">
+              <h1 class="offer__title">
+                BLIZKO — федеральная торговая площадка
+              </h1>
+              <p class="offer__sub-title">
+                Здесь каждый месяц миллионы покупателей выбирают товары и услуги
+                от десятков тысяч компаний.
+              </p>
+              <p class="offer__description">
+                Пройдите простую регистрацию и получите доступ в кабинет
+                компании. Вам будут доступны все сервисы для продаж через
+                BLIZKO, публикация товаров и услуг, управление размещением
+                товаров в листинге.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -95,7 +166,9 @@
               варианта продвижения на BLIZKO
             </h3>
 
-            <button class="conversion__btn btn">Подобрать тариф</button>
+            <button class="conversion__btn btn link link_opacity_xl">
+              Подобрать тариф
+            </button>
 
             <p class="conversion__text">
               После получения плана размещения вы можете по желанию оставить
@@ -104,7 +177,7 @@
           </div>
         </section>
 
-        <section class="tariffs content-wrapper">
+        <section id="tariffs" class="tariffs content-wrapper">
           <div class="container">
             <h3 class="tariffs__title">
               Выберите свой тариф на BLIZKO в Екатеринбурге
@@ -126,7 +199,7 @@
                     Отчеты формируются в виде уникальных посетителей по месяцам,
                     минимальный размер покупки 3 000 посетителей.
                   </p>
-                  <button class="tariff__btn">Подробнее</button>
+                  <button class="tariff__btn link_opacity_xl">Подробнее</button>
                 </div>
                 <div class="acc">
                   <hr />
@@ -278,7 +351,9 @@
                   Подключим дополнительные рекламные каналы: контекстную
                   рекламу, социальные сети и т.д.
                 </p>
-                <button class="extra__card-btn">Подробнее</button>
+                <button class="extra__card-btn link link_opacity_xl">
+                  Подробнее
+                </button>
               </li>
               <li class="extra__card-item">
                 <h6 class="extra__card-title">Баннерная реклама</h6>
@@ -286,7 +361,9 @@
                   Выделим ваши предложения, разместив медийный баннер в товарных
                   рубриках на торговой площадке BLIZKO.
                 </p>
-                <button class="extra__card-btn">Подробнее</button>
+                <button class="extra__card-btn link link_opacity_xl">
+                  Подробнее
+                </button>
               </li>
               <li class="extra__card-item">
                 <h6 class="extra__card-title">Реклама в соцсетях</h6>
@@ -294,7 +371,9 @@
                   Приведем на ваш сайт дополнительных посетителей из социальных
                   сетей.
                 </p>
-                <button class="extra__card-btn">Подробнее</button>
+                <button class="extra__card-btn link link_opacity_xl">
+                  Подробнее
+                </button>
               </li>
             </ul>
           </div>
@@ -307,7 +386,7 @@
             <ul class="reviews__review-list">
               <li class="reviews__review-item">
                 <img
-                  src="./images/review1_image.jpg"
+                  src="./images/site.png"
                   alt="Фото сайта клиента"
                   class="reviews__review-img"
                 />
@@ -329,7 +408,7 @@
               </li>
               <li class="reviews__review-item">
                 <img
-                  src="./images/review2_image.jpg"
+                  src="./images/site.png"
                   alt="Фото сайта компании"
                   class="reviews__review-img"
                 />
@@ -351,11 +430,212 @@
               </li>
             </ul>
 
-            <button class="reviews__button">Посмотреть все отзывы</button>
+            <a
+              href="https://ekb.blizko.ru/sellers/response"
+              class="reviews__button"
+              >Посмотреть все отзывы</a
+            >
           </div>
         </section>
       </main>
-      <footer class="footer page__footer"></footer>
+      <aside class="public content-wrapper">
+        <div class="container">
+          <p class="public__text">
+            ДАННАЯ ИНФОРМАЦИЯ НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ
+          </p>
+        </div>
+      </aside>
+      <footer class="footer content-wrapper">
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__about-container">
+              <ul class="footer__about-list">
+                <li class="footer__about-item">
+                  <a
+                    href="https://ekb.blizko.ru/?area=footer_com"
+                    class="footer__about-company link link_opacity_xl"
+                  >
+                    <img
+                      src="./images/footer_logo.png"
+                      alt="Логотип компании"
+                      class="footer__about-logo"
+                    />
+                  </a>
+                </li>
+                <li class="footer__about-item">
+                  <a
+                    href="https://ekb.blizko.ru/company_wizard/new?page=sellersreklama&footer&button=true&type=dk&mobile"
+                    class="footer__button link link_opacity_xl"
+                    >Зарегистрировать компанию</a
+                  >
+                </li>
+
+                <li class="footer__about-item">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/reklama/valuable_visitor_z/?area=footer_com"
+                    class="footer__button footer__button_color_orange link link_opacity_xl"
+                    >Заказать консультацию</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__nav-container">
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/?area=footer_com"
+                    class="footer__list-link link link_opacity_xl"
+                    >Как продавать на BLIZKO</a
+                  >
+                </li>
+                <li class="footer__list-item footer__list-item_pd_small">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/start_of_online_sales/?area=footer_com"
+                    class="footer__list-link link link_opacity_xl"
+                    >Старт интернет-продаж</a
+                  >
+                </li>
+                <li class="footer__list-item footer__list-item_pd_small">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/internet_sales_growth/?area=footer_com"
+                    class="footer__list-link link link_opacity_xl"
+                    >Рост интернет-продаж</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/reklama/?area=footer_com"
+                    class="footer__list-link link link_opacity_xl"
+                    >Прайс-лист</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/create_a_website?page=sellersreklama&type=ssb&footer"
+                    class="footer__list-link link link_opacity_xl"
+                    >Как создать сайт на BLIZKO</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a
+                    href="https://ekb.blizko.ru/sellers/response/?area=footer_com"
+                    class="footer__list-link link link_opacity_xl"
+                    >Отзывы наших клиентов</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__contacts-container">
+              <h5 class="footer__title">
+                Возникли вопросы? Мы на связи: только «живая» техподдержка и
+                никаких ботов!
+              </h5>
+              <ul class="footer__contact-list">
+                <li class="footer__contact-item">
+                  <a
+                    href="tel:+78007000191"
+                    class="footer__contact-link link link_opacity_xl"
+                    >8-800-7000-191</a
+                  >
+                </li>
+                <li class="footer__contact-item">
+                  <a
+                    href="https://wa.me/79221017318/?area=header_com"
+                    class="footer__contact-link link link_opacity_xl"
+                  >
+                    <img
+                      src="./images/whatsapp.png"
+                      alt="Иконка whatsapp"
+                      class="footer__contact-image"
+                    />
+                  </a>
+                </li>
+                <li class="footer__contact-item">
+                  <a
+                    href="https://telegram.me/blizko_business/?area=header_com"
+                    class="footer__contact-link link link_opacity_xl"
+                  >
+                    <img
+                      src="./images/telegram.png"
+                      alt="Иконка Telegram"
+                      class="footer__contact-image"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <nav class="footer__sallers-container">
+              <h6 class="footer__sallers-title">Развитие продаж</h6>
+              <a
+                href="https://ekb.blizko.ru/sellers/FAQ/?area=footer_com"
+                class="footer__sallers-link link link_opacity_xl"
+                >Помощь по работе с BLIZKO</a
+              >
+              <a
+                href="https://ekb.blizko.ru/sellers/webinar/?area=footer_com"
+                class="footer__sallers-link link link_opacity_xl"
+                >Расписание вебинаров</a
+              >
+            </nav>
+
+            <h5 class="footer__title">Мы в соцсетях</h5>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a
+                  href="https://vk.com/blizkobusiness/?area=footer_com"
+                  class="footer__social-link link link_opacity_xl"
+                  ><img
+                    src="./images/vk.png"
+                    alt="Вконтакте"
+                    class="footer__social-image"
+                /></a>
+              </li>
+              <li class="footer__social-item">
+                <a
+                  href="https://dzen.ru/blizko/?area=footer_com"
+                  class="footer__social-link link link_opacity_xl"
+                  ><img
+                    src="./images/dzen.png"
+                    alt="Яндекс.Дзен"
+                    class="footer__social-image"
+                /></a>
+              </li>
+              <li class="footer__social-item">
+                <a
+                  href="https://dzen.ru/blizkodom/?area=footer_com"
+                  class="footer__social-link link link_opacity_xl"
+                  ><img
+                    src="./images/dzen_second.png"
+                    alt="Яндекс.Дзен"
+                    class="footer__social-image"
+                /></a>
+              </li>
+              <li class="footer__social-item">
+                <a
+                  href="https://tenchat.ru/blizko/?area=footer_com"
+                  class="footer__social-link link link_opacity_xl"
+                  ><img
+                    src="./images/tenchat.png"
+                    alt="tenChat"
+                    class="footer__social-image"
+                /></a>
+              </li>
+              <li class="footer__social-item">
+                <a
+                  href="https://www.youtube.com/user/BlizkoBusiness/sub_confirmation=1/?area=footer_com"
+                  class="footer__social-link link link_opacity_xl"
+                  ><img
+                    src="./images/youtube.png"
+                    alt="Youtube"
+                    class="footer__social-image"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
